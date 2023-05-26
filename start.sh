@@ -1,2 +1,2 @@
 #!/bin/bash
-java -Xms2G -Xmx2G -jar purpur1976.jar --nogui
+java -Xms4G -Xmx4G -jar purpur1976.jar --nogui
