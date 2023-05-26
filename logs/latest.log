@@ -1,0 +1,429 @@
+[13:19:10] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:19:12] [ServerMain/INFO]: Loaded 7 recipes
+[13:19:13] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[13:19:13] [Server thread/WARN]: ****************************
+[13:19:13] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[13:19:13] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[13:19:13] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[13:19:13] [Server thread/WARN]: ****************************
+[13:19:13] [Server thread/INFO]: Loading properties
+[13:19:13] [Server thread/INFO]: This server is running Purpur version git-Purpur-1976 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT) (Git: 68117a4 on HEAD)
+[13:19:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:19:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:19:14] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[13:19:15] [Server thread/WARN]: [Pufferfish] SIMD operations are available for your server, but are not configured!
+[13:19:15] [Server thread/WARN]: [Pufferfish] To enable additional optimizations, add "--add-modules=jdk.incubator.vector" to your startup flags, BEFORE the "-jar".
+[13:19:15] [Server thread/WARN]: [Pufferfish] If you have already added this flag, then SIMD operations are not supported on your JVM or CPU.
+[13:19:15] [Server thread/WARN]: [Pufferfish] Debug: Java: 19.0.2, test run: true
+[13:19:15] [Server thread/INFO]: Default game type: SURVIVAL
+[13:19:15] [Server thread/INFO]: Generating keypair
+[13:19:15] [Server thread/INFO]: Starting Minecraft server on 95.217.165.44:25565
+[13:19:15] [Server thread/INFO]: Using epoll channel type
+[13:19:15] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[13:19:15] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[13:19:16] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_19_R3.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[13:19:21] [Server thread/WARN]: Legacy plugin LoginSecurity v3.1.1 does not specify an api-version.
+[13:19:21] [Server thread/WARN]: Legacy plugin OnePlayerSleep v1.3 does not specify an api-version.
+[13:19:21] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.6.2
+[13:19:21] [Server thread/INFO]: [ViaVersion] ViaVersion 4.6.2 is now loaded. Registering protocol transformers and injecting...
+[13:19:22] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[13:19:22] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[13:19:22] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[13:19:22] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[13:19:23] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.6.1
+[13:19:23] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.0
+[13:19:23] [Server thread/INFO]: [squaremap] Loading server plugin squaremap v1.1.13
+[13:19:23] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.39
+[13:19:23] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.4.8
+[13:19:23] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v21.3
+[13:19:23] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v14.2.10
+[13:19:23] [Server thread/INFO]: [Duels] Loading server plugin Duels v3.5.3
+[13:19:23] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.52
+[13:19:23] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.1.1
+[13:19:23] [Server thread/INFO]: [AureliumSkills] Loading server plugin AureliumSkills vBeta 1.3.19
+[13:19:23] [Server thread/INFO]: [OnePlayerSleep] Loading server plugin OnePlayerSleep v1.3
+[13:19:23] [Server thread/INFO]: [ChestSort] Loading server plugin ChestSort v13.6.0
+[13:19:23] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v3.10.0 b752
+[13:19:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:19:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:19:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:19:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:19:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:19:23] [Server thread/INFO]: Preparing level "world"
+[13:19:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:19:24] [Server thread/INFO]: Time elapsed: 183 ms
+[13:19:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:19:25] [Server thread/INFO]: Time elapsed: 81 ms
+[13:19:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:19:25] [Server thread/INFO]: Time elapsed: 70 ms
+[13:19:25] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.6.2
+[13:19:25] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19.4 (762)
+[13:19:25] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.6.1
+[13:19:25] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.0
+[13:19:26] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[13:19:26] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[13:19:26] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[13:19:26] [Server thread/INFO]: [Essentials] Using locale en_US
+[13:19:27] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[13:19:27] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[13:19:27] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[13:19:27] [Server thread/INFO]: [squaremap] Enabling squaremap v1.1.13
+[13:19:30] [Server thread/INFO]: [io.undertow] starting server: Undertow - 2.3.2.Final
+[13:19:30] [Server thread/INFO]: [org.xnio] XNIO version 3.8.8.Final
+[13:19:30] [Server thread/INFO]: [org.xnio.nio] XNIO NIO Implementation Version 3.8.8.Final
+[13:19:30] [Server thread/INFO]: [org.jboss.threads] JBoss Threads version 3.5.0.Final
+[13:19:30] [Server thread/INFO]: [squaremap] Internal webserver running on 0.0.0.0:8080
+[13:19:31] [Server thread/INFO]: [spark] Enabling spark v1.10.39
+[13:19:31] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[13:19:31] [Server thread/INFO]: [spark] Starting background profiler...
+[13:19:33] [Server thread/INFO]: [voicechat] Enabling voicechat v2.4.8
+[13:19:33] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.19.4-R0.1
+[13:19:33] [Server thread/INFO]: [voicechat] Compatibility version 17
+[13:19:33] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[13:19:33] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[13:19:33] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v21.3
+[13:19:34] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[13:19:34] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[13:19:34] [Server thread/INFO]: --------------------
+[13:19:34] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[13:19:34] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[13:19:34] [Server thread/INFO]: --------------------
+[13:19:34] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.10
+[13:19:35] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R3[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m
+[13:19:35] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[13:19:35] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
+[13:19:35] [Server thread/INFO]: [Duels] Enabling Duels v3.5.3
+[13:19:36] [Server thread/INFO]: [Duels] Successfully hooked into 'Essentials'!
+[13:19:36] [Server thread/INFO]: [Duels] KitManagerImpl: Loaded 0 kit(s).
+[13:19:36] [Server thread/INFO]: [Duels] ArenaManagerImpl: Loaded 0 arena(s).
+[13:19:36] [Server thread/INFO]: [Duels] PlayerInfoManager: Lobby location was not set, using world's spawn location as default. Use the command /duels setlobby in-game to set the lobby location.
+[13:19:36] [Server thread/INFO]: [Duels] BettingManager: Vault was not found! Money betting feature will be automatically disabled.
+[13:19:36] [Server thread/INFO]: [Duels] QueueManager: Loaded 0 queue(s).
+[13:19:36] [Server thread/INFO]: [Duels] QueueSignManagerImpl: Loaded 0 queue sign(s).
+[13:19:36] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.52
+[13:19:37] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.1.1*
+[13:19:37] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[13:19:37] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[13:19:37] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[13:19:37] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[13:19:37] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[13:19:37] [Server thread/INFO]: [AureliumSkills] Enabling AureliumSkills vBeta 1.3.19
+[13:19:37] [Server thread/INFO]: [AureliumSkills] Loaded 193 config options in 0 ms
+[13:19:37] [Server thread/INFO]: [AureliumSkills] Loaded 303 sources and 10 tags in 39ms
+[13:19:37] [Server thread/INFO]: [AureliumSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[13:19:37] [Server thread/INFO]: [AureliumSkills] Loading languages...
+[13:19:40] [Server thread/INFO]: [AureliumSkills] Loaded 16 languages in 2226ms
+[13:19:40] [Server thread/INFO]: [AureliumSkills] Loaded 30 pattern rewards and 0 level rewards
+[13:19:40] [Server thread/ERROR]: Cannot load plugins/AureliumSkills/abilities_config.yml
+org.bukkit.configuration.InvalidConfigurationException: while scanning a simple key
+ in 'reader', line 36, column 5:
+        triple_harvest:51
+        ^
+could not find expected ':'
+ in 'reader', line 37, column 1:
+          enabled: true
+    ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:111) ~[purpur-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[purpur-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[purpur-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:309) ~[purpur-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at com.archyx.aureliumskills.ability.AbilityManager.loadOptions(AbilityManager.java:44) ~[AureliumSkills-Beta1.3.19.jar:?]
+	at com.archyx.aureliumskills.AureliumSkills.onEnable(AureliumSkills.java:285) ~[AureliumSkills-Beta1.3.19.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[purpur-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189) ~[purpur-1.19.4.jar:git-Purpur-1976]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[purpur-1.19.4.jar:git-Purpur-1976]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[purpur-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.CraftServer.enablePlugin(CraftServer.java:570) ~[purpur-1.19.4.jar:git-Purpur-1976]
+	at org.bukkit.craftbukkit.v1_19_R3.CraftServer.enablePlugins(CraftServer.java:481) ~[purpur-1.19.4.jar:git-Purpur-1976]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:643) ~[purpur-1.19.4.jar:git-Purpur-1976]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:442) ~[purpur-1.19.4.jar:git-Purpur-1976]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:345) ~[purpur-1.19.4.jar:git-Purpur-1976]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1120) ~[purpur-1.19.4.jar:git-Purpur-1976]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:325) ~[purpur-1.19.4.jar:git-Purpur-1976]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key
+ in 'reader', line 36, column 5:
+        triple_harvest:51
+        ^
+could not find expected ':'
+ in 'reader', line 37, column 1:
+          enabled: true
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:527) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:332) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:262) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:662) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:185) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:239) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:208) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:357) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:336) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:311) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:212) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:357) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:336) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:311) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:212) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:357) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:336) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:311) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:212) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:357) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:336) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:311) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:212) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:134) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:160) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:559) ~[snakeyaml-1.33.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104) ~[purpur-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	... 17 more
+[13:19:40] [Server thread/ERROR]: Cannot load plugins/AureliumSkills/abilities_config.yml
+org.bukkit.configuration.InvalidConfigurationException: while scanning a simple key
+ in 'reader', line 36, column 5:
+        triple_harvest:51
+        ^
+could not find expected ':'
+ in 'reader', line 37, column 1:
+          enabled: true
+    ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:111) ~[purpur-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[purpur-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[purpur-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:309) ~[purpur-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at com.archyx.aureliumskills.ability.AbilityManager.updateFile(AbilityManager.java:207) ~[AureliumSkills-Beta1.3.19.jar:?]
+	at com.archyx.aureliumskills.ability.AbilityManager.loadOptions(AbilityManager.java:44) ~[AureliumSkills-Beta1.3.19.jar:?]
+	at com.archyx.aureliumskills.AureliumSkills.onEnable(AureliumSkills.java:285) ~[AureliumSkills-Beta1.3.19.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[purpur-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189) ~[purpur-1.19.4.jar:git-Purpur-1976]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[purpur-1.19.4.jar:git-Purpur-1976]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[purpur-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.CraftServer.enablePlugin(CraftServer.java:570) ~[purpur-1.19.4.jar:git-Purpur-1976]
+	at org.bukkit.craftbukkit.v1_19_R3.CraftServer.enablePlugins(CraftServer.java:481) ~[purpur-1.19.4.jar:git-Purpur-1976]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:643) ~[purpur-1.19.4.jar:git-Purpur-1976]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:442) ~[purpur-1.19.4.jar:git-Purpur-1976]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:345) ~[purpur-1.19.4.jar:git-Purpur-1976]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1120) ~[purpur-1.19.4.jar:git-Purpur-1976]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:325) ~[purpur-1.19.4.jar:git-Purpur-1976]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key
+ in 'reader', line 36, column 5:
+        triple_harvest:51
+        ^
+could not find expected ':'
+ in 'reader', line 37, column 1:
+          enabled: true
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:527) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:332) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:262) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:662) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:185) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:239) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:208) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:357) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:336) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:311) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:212) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:357) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:336) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:311) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:212) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:357) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:336) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:311) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:212) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:357) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:336) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:311) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:212) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:134) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:160) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:559) ~[snakeyaml-1.33.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104) ~[purpur-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	... 18 more
+[13:19:40] [Server thread/INFO]: [AureliumSkills] Loaded 0 Ability Options in 0ms
+[13:19:41] [Server thread/INFO]: [AureliumSkills] Loaded 6 menus
+[13:19:41] [Server thread/INFO]: [AureliumSkills] Loaded 32 loot entries in 4 pools and 2 tables
+[13:19:41] [Server thread/INFO]: [AureliumSkills] Loaded 3 blocked worlds.
+[13:19:41] [Server thread/INFO]: [AureliumSkills] Aurelium Skills has been enabled
+[13:19:41] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_19_R3! Trying to find NMS support
+[13:19:41] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_19_R3' loaded!
+[13:19:41] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Gson: class com.google.gson.Gson
+[13:19:41] [Server thread/INFO]: [OnePlayerSleep] Enabling OnePlayerSleep v1.3*
+[13:19:41] [Server thread/INFO]: [ChestSort] Enabling ChestSort v13.6.0
+[13:19:41] [Server thread/INFO]: [ChestSort] Use permissions: true
+[13:19:41] [Server thread/INFO]: [ChestSort] Current sorting method: {category},{itemsFirst},{name},{color},{customName}
+[13:19:41] [Server thread/INFO]: [ChestSort] Allow automatic chest sorting:true
+[13:19:41] [Server thread/INFO]: [ChestSort]   |- Chest sorting enabled by default: false
+[13:19:41] [Server thread/INFO]: [ChestSort]   |- Sort time: close
+[13:19:41] [Server thread/INFO]: [ChestSort] Allow automatic inventory sorting:true
+[13:19:41] [Server thread/INFO]: [ChestSort]   |- Inventory sorting enabled by default: false
+[13:19:41] [Server thread/INFO]: [ChestSort] Auto generate category files: true
+[13:19:41] [Server thread/INFO]: [ChestSort] Allow hotkeys: true
+[13:19:41] [Server thread/INFO]: [ChestSort] Hotkeys enabled by default:
+[13:19:41] [Server thread/INFO]: [ChestSort]   |- Middle-Click: true
+[13:19:41] [Server thread/INFO]: [ChestSort]   |- Shift-Click: true
+[13:19:41] [Server thread/INFO]: [ChestSort]   |- Double-Click: true
+[13:19:41] [Server thread/INFO]: [ChestSort]   |- Shift-Right-Click: true
+[13:19:41] [Server thread/INFO]: [ChestSort] Allow additional hotkeys: true
+[13:19:41] [Server thread/INFO]: [ChestSort] Additional hotkeys enabled by default:
+[13:19:41] [Server thread/INFO]: [ChestSort]   |- Left-Click: false
+[13:19:41] [Server thread/INFO]: [ChestSort]   |- Right-Click: false
+[13:19:41] [Server thread/INFO]: [ChestSort] Check for updates: true
+[13:19:41] [Server thread/INFO]: [ChestSort] Check interval: 4 hours (4.0 seconds)
+[13:19:41] [Server thread/INFO]: [ChestSort] Categories: 900-weapons (6), 905-common-tools (4), 907-other-tools (6), 909-food (33), 910-valuables (47), 920-armor-and-arrows (9), 930-brewing (18), 950-redstone (23), 960-wood (60), 970-stone (38), 980-plants (50), 981-corals (1)
+[13:19:41] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v3.10.0 b752
+[13:19:41] [Server thread/INFO]: LevelledMobs: Using NMS version v1_19_R3 for nametag support
+[13:19:41] [Server thread/INFO]: LevelledMobs: File Loader: Loading files...
+[13:19:41] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'rules.yml'...
+[13:19:41] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'settings.yml'...
+[13:19:41] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'messages.yml'...
+[13:19:41] [Server thread/INFO]: LevelledMobs: Listeners: Registering event listeners...
+[13:19:41] [Server thread/INFO]: LevelledMobs: Commands: Registering commands...
+[13:19:41] [Server thread/INFO]: LevelledMobs: Running misc procedures
+[13:19:41] [Server thread/INFO]: LevelledMobs: Tasks: Starting async nametag auto update task...
+[13:19:41] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'customdrops.yml'...
+[13:19:41] [Server thread/INFO]: LevelledMobs: Start-up complete (took 311ms)
+[13:19:42] [Server thread/INFO]: Running delayed init tasks
+[13:19:42] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[13:19:42] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
+[13:19:42] [Server thread/INFO]: [voicechat] Loading plugins
+[13:19:42] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[13:19:42] [Server thread/INFO]: [voicechat] Initializing plugins
+[13:19:42] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[13:19:42] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[13:19:42] [ForkJoinPool.commonPool-worker-1/INFO]: [squaremap] Fetching version information...
+[13:19:42] [Server thread/INFO]: [voicechat] Using default voicechat socket implementation
+[13:19:42] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 95.217.165.44
+[13:19:42] [VoiceChatServerThread/INFO]: [voicechat] Server started at port 24454
+[13:19:42] [Craft Scheduler Thread - 5 - Duels/INFO]: [Duels] No updates were available. You are on the latest version!
+[13:19:42] [Server thread/INFO]: Done (28.970s)! For help, type "help"
+[13:19:42] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[13:19:42] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[13:19:42] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[13:19:42] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[13:19:42] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[13:19:42] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[13:19:42] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[13:19:42] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.10[0;39m
+[13:19:42] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[13:19:42] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[13:19:43] [User Authenticator #0/INFO]: UUID of player Marius4 is f1bed28d-24d2-3f19-a4bf-72031a345b8a
+[13:19:45] [Server thread/INFO]: Marius4 joined the game
+[13:19:45] [Server thread/INFO]: Marius4[/78.62.181.67:51298] logged in with entity id 20 at ([world]4960.888420451271, 63.0, 5435.851789448495)
+[13:20:40] [Server thread/INFO]: Marius4 issued server command: /skin MoyaiOG
+[13:21:06] [Server thread/INFO]: Marius4 issued server command: /locate biome #minecraft:allows_surface_slime_spawns
+[13:21:07] [Server thread/INFO]: Locating element #minecraft:allows_surface_slime_spawns (minecraft:swamp) took 1011 ms
+[13:21:12] [Server thread/INFO]: Marius4 issued server command: /tp @s 6151 72 5015
+[13:21:15] [Server thread/INFO]: Marius4 issued server command: /tp @a 6151 72 5015
+[13:21:19] [Server thread/INFO]: Marius4 issued server command: /tp Marius4 6151 72 5015
+[13:22:20] [Server thread/INFO]: Marius4 issued server command: /tp 0 70 0
+[13:24:05] [Server thread/INFO]: Marius4 issued server command: /skin Diaperchangerr
+[13:49:42] [Craft Scheduler Thread - 23 - LoginSecurity/ERROR]: [LoginSecurity] Failed to recreate database connection
+java.sql.SQLException: path to 'plugins/LoginSecurity/LoginSecurity.db': '/root/mc/plugins/LoginSecurity' does not exist
+	at org.sqlite.SQLiteConnection.open(SQLiteConnection.java:259) ~[sqlite-jdbc-3.41.0.0.jar:?]
+	at org.sqlite.SQLiteConnection.<init>(SQLiteConnection.java:65) ~[sqlite-jdbc-3.41.0.0.jar:?]
+	at org.sqlite.jdbc3.JDBC3Connection.<init>(JDBC3Connection.java:28) ~[sqlite-jdbc-3.41.0.0.jar:?]
+	at org.sqlite.jdbc4.JDBC4Connection.<init>(JDBC4Connection.java:19) ~[sqlite-jdbc-3.41.0.0.jar:?]
+	at org.sqlite.JDBC.createConnection(JDBC.java:104) ~[sqlite-jdbc-3.41.0.0.jar:?]
+	at org.sqlite.SQLiteDataSource.getConnection(SQLiteDataSource.java:440) ~[sqlite-jdbc-3.41.0.0.jar:?]
+	at org.sqlite.SQLiteDataSource.getConnection(SQLiteDataSource.java:41) ~[sqlite-jdbc-3.41.0.0.jar:?]
+	at com.lenis0012.bukkit.loginsecurity.database.datasource.sqlite.SQLiteConnectionPoolDataSource.getPooledConnection(SQLiteConnectionPoolDataSource.java:53) ~[LoginSecurity-3.1.1-Spigot.jar:?]
+	at com.lenis0012.bukkit.loginsecurity.database.datasource.sqlite.SQLiteConnectionPoolDataSource.getPooledConnection(SQLiteConnectionPoolDataSource.java:46) ~[LoginSecurity-3.1.1-Spigot.jar:?]
+	at com.lenis0012.bukkit.loginsecurity.database.datasource.SingleConnectionDataSource.createConnection(SingleConnectionDataSource.java:85) ~[LoginSecurity-3.1.1-Spigot.jar:?]
+	at com.lenis0012.bukkit.loginsecurity.database.datasource.SingleConnectionDataSource.run(SingleConnectionDataSource.java:96) ~[LoginSecurity-3.1.1-Spigot.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[purpur-1.19.4.jar:git-Purpur-1976]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[purpur-1.19.4.jar:git-Purpur-1976]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[purpur-1.19.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+[14:08:17] [Server thread/INFO]: Marius4 lost connection: Disconnected
+[14:08:17] [Server thread/INFO]: [voicechat] Disconnecting client Marius4
+[14:08:17] [Server thread/INFO]: Marius4 left the game
+[18:20:57] [Server console handler/ERROR]: Caught previously unhandled exception :
+java.io.IOError: java.io.IOException: Input/output error
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468) ~[jline-reader-3.20.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:103) ~[purpur-1.19.4.jar:git-Purpur-1976]
+Caused by: java.io.IOException: Input/output error
+	at java.io.FileInputStream.read0(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:237) ~[?:?]
+	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73) ~[jline-terminal-3.21.0.jar:?]
+	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62) ~[jline-terminal-3.21.0.jar:?]
+	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168) ~[jline-terminal-3.21.0.jar:?]
+	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57) ~[jline-terminal-3.21.0.jar:?]
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160) ~[jline-reader-3.20.0.jar:?]
+	... 9 more
+[18:20:57] [Server thread/INFO]: Stopping server
+[18:20:57] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v3.10.0 b752
+[18:20:57] [Server thread/INFO]: LevelledMobs: Tasks: Stopping async nametag auto update task...
+[18:20:57] [Server thread/INFO]: LevelledMobs: Tasks: Shutting down other async tasks...
+[18:20:57] [Server thread/INFO]: LevelledMobs: Shut-down complete (took 2ms)
+[18:20:58] [Craft Scheduler Thread - 9 - LevelledMobs/INFO]: LevelledMobs: Nametag update queue Manager has exited
+[18:20:58] [Server thread/INFO]: [ChestSort] Disabling ChestSort v13.6.0
+[18:20:58] [Server thread/INFO]: [OnePlayerSleep] Disabling OnePlayerSleep v1.3
+[18:20:58] [Server thread/INFO]: [AureliumSkills] Disabling AureliumSkills vBeta 1.3.19
+[18:20:58] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.1.1
+[18:20:58] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[18:20:58] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[18:20:58] [Server thread/INFO]: [Chunky] Disabling Chunky v1.3.52
+[18:20:58] [Server thread/INFO]: [Duels] Disabling Duels v3.5.3
+[18:20:58] [Craft Scheduler Thread - 8 - LevelledMobs/INFO]: LevelledMobs: Mob processing queue Manager has exited
+[18:20:58] [Server thread/INFO]: [Duels] Disable process took 16ms.
+[18:20:58] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.10
+[18:20:58] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v21.3
+[18:20:58] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[18:20:58] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v21.3
+[18:20:58] [Server thread/INFO]: [voicechat] Disabling voicechat v2.4.8
+[18:20:58] [Server thread/INFO]: [spark] Disabling spark v1.10.39
+[18:20:58] [Server thread/INFO]: [squaremap] Disabling squaremap v1.1.13
+[18:20:58] [Server thread/INFO]: [io.undertow] stopping server: Undertow - 2.3.2.Final
+[18:20:58] [Server thread/INFO]: [squaremap] Internal webserver stopped
+[18:20:59] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.0
+[18:20:59] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.6.1
+[18:20:59] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.6.2
+[18:20:59] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[18:20:59] [Server thread/INFO]: Saving players
+[18:20:59] [Server thread/INFO]: Saving worlds
+[18:20:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:20:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[18:20:59] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[18:20:59] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[18:21:00] [Server thread/INFO]: [ChunkHolderManager] Saved 687 block chunks, 157 entity chunks, 0 poi chunks in world 'world' in 1.08s
+[18:21:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:21:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:21:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[18:21:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[18:21:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[18:21:00] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 20 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[18:21:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:21:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:21:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[18:21:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[18:21:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[18:21:00] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
+[18:21:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:21:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:21:00] [Server thread/INFO]: Flushing Chunk IO
+[18:21:00] [Server thread/INFO]: Closing Thread Pool
+[18:21:00] [Server thread/INFO]: Closing Server

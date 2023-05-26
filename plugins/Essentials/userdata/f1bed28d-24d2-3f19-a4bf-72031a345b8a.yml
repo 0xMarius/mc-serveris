@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 78.62.181.67
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1684937297425
+  login: 1684934385389
+money: '0'
+last-account-name: Marius4
+lastlocation:
+  world: 0a9728fb-24bc-4879-819c-b3ddda374af1
+  world-name: world
+  x: 6172.095764610784
+  y: 63.82369638724732
+  z: 5033.878897235891
+  yaw: -36.00494384765625
+  pitch: 40.64999008178711
+logoutlocation:
+  world: 0a9728fb-24bc-4879-819c-b3ddda374af1
+  world-name: world
+  x: -108.5749652509672
+  y: 70.25447229134289
+  z: -54.41259445876101
+  yaw: 84.295166015625
+  pitch: 22.650053024291992
