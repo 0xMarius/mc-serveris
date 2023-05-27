@@ -6,7 +6,7 @@ REPO_NAME="mc-serveris"
 BRANCH="main"
 
 # Define the local directory path for the repository
-LOCAL_DIR="/root/mc-serveris/"
+LOCAL_DIR="/root/mc-serveris"
 
 # Define the name of the Minecraft server JAR file
 SERVER_JAR="purpur1976.jar"
@@ -34,7 +34,7 @@ while true; do
     # Pull changes from the remote repository
     git pull origin "$BRANCH"
 	
-    # Restart the Minecraft server
+    # Kill process running on port 25565 and restart the Minecraft server
     sudo systemctl restart mc-start.service
   else
     echo "No changes to pull."
