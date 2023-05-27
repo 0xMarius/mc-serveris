@@ -1,2 +1,17 @@
 #!/bin/bash
-java -Xms4G -Xmx4G -jar purpur1976.jar --nogui
+
+# Path to Minecraft server directory
+SERVER_DIR="/root/mc-serveris"
+
+# Path to Minecraft server JAR file
+SERVER_JAR="$SERVER_DIR/purpur1976.jar"
+
+if [ -z "$server_status" ]; then
+  # Minecraft server is not running, start it
+  cd "$SERVER_DIR" && /usr/bin/java -Xms4G -Xmx4G -jar "$SERVER_JAR" --nogui
+else
+  # Minecraft server is running, restart it
+  screen -S minecraft -p 0 -X stuff "stop$(printf '\r')"
+  sleep 10
+  cd "$SERVER_DIR" && /usr/bin/java -Xms4G -Xmx4G -jar "$SERVER_JAR" --nogui
+fi
