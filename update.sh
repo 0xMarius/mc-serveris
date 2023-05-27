@@ -34,13 +34,7 @@ while true; do
     # Pull changes from the remote repository
     git pull origin "$BRANCH"
 	
-    # Check if the Minecraft server is already running
-    if pgrep -f "$SERVER_JAR" >/dev/null; then
-	
-      # Restart the Minecraft server
-      screen -S minecraft -p 0 -X stuff "stop^M"  # Send "stop" command to the running server
-      sleep 10  # Allow time for the server to shut down gracefully
-	fi
+    sudo systemctl restart mc-start.service
   else
     echo "No changes to pull."
   fi
