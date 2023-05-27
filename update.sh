@@ -12,7 +12,7 @@ LOCAL_DIR="/root/mc-serveris"
 SERVER_JAR="purpur1976.jar"
 
 # Define the sleep interval between each check (in seconds)
-SLEEP_INTERVAL=30
+SLEEP_INTERVAL=10
 
 # Change directory to the local repository
 cd "$LOCAL_DIR"
@@ -33,8 +33,7 @@ while true; do
   if [ "$LOCAL_HEAD" != "$REMOTE_HEAD" ]; then
     # Pull changes from the remote repository
     git pull origin "$BRANCH"
-	
-    sudo systemctl restart mc-start.service
+
   else
     echo "No changes to pull."
   fi
