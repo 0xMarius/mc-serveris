@@ -11,7 +11,7 @@ if [ -z "$server_status" ]; then
   cd "$SERVER_DIR" && /usr/bin/java -Xms4G -Xmx4G -jar "$SERVER_JAR" --nogui
 else
   # Minecraft server is running, restart it
-  screen -S minecraft -p 0 -X stuff "stop$(printf '\r')"
+  lsof -ti :25565 | xargs kill
   sleep 10
   cd "$SERVER_DIR" && /usr/bin/java -Xms4G -Xmx4G -jar "$SERVER_JAR" --nogui
 fi
