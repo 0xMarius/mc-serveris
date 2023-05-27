@@ -19,7 +19,7 @@ cd "$LOCAL_DIR"
 
 # Check if the repository exists, and if not, clone it
 if [ ! -d "$LOCAL_DIR" ]; then
-  git clone "https://github.com/$REPO_OWNER/$REPO_NAME.git" "$LOCAL_DIR"
+  git clone "git@github.com:0xMarius/$REPO_OWNER/$REPO_NAME.git" "$LOCAL_DIR"
 fi
 
 while true; do
