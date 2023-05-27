@@ -17,12 +17,12 @@ SLEEP_INTERVAL=10
 # Change directory to the local repository
 cd "$LOCAL_DIR"
 
-while true; do
-  # Check if the repository exists, and if not, clone it
-  if [ ! -d "$LOCAL_DIR" ]; then
-    git clone "https://github.com/$REPO_OWNER/$REPO_NAME.git" "$LOCAL_DIR"
-  fi
+# Check if the repository exists, and if not, clone it
+if [ ! -d "$LOCAL_DIR" ]; then
+  git clone "https://github.com/$REPO_OWNER/$REPO_NAME.git" "$LOCAL_DIR"
+fi
 
+while true; do
   # Fetch the latest changes from the remote repository
   git fetch origin "$BRANCH"
 
