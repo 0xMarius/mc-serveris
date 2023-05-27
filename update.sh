@@ -34,7 +34,7 @@ while true; do
     # Pull changes from the remote repository
     git pull origin "$BRANCH"
 	
-    # Kill process running on port 25565 and restart the Minecraft server
+    # Restart the Minecraft server
     sudo systemctl restart mc-start.service
   else
     echo "No changes to pull."
